@@ -7,7 +7,7 @@
 3. SlimeCustomizer
 
 # 注意
-要求 MineCraft 版本为：1.18.2+
-SlimeCustomizer 版本为：build23 或最新
-文件夹内 sc-addon.yml 与 config.yml 非必要请勿擅自进行删改，否则重新下载
-其中 GuizhanLibPlugin 插件作为本附属的硬需求前置
+ - 要求 MineCraft 版本为：1.18.2+
+ - SlimeCustomizer 版本为：build23 或最新
+ - 文件夹内 sc-addon.yml 与 config.yml 非必要请勿擅自进行删改，否则重新下载
+ - 其中 GuizhanLibPlugin 插件作为本附属的硬需求前置

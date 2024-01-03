@@ -1,0 +1,99 @@
+BAT_SASHIMI:
+  category: extra_food
+  item-type: CUSTOM
+  item-name: "&b蝙蝠刺身"
+  item-lore:
+    - "&7啊哈~吃完就是传染源！"
+  item-id: RABBIT
+  item-amount: 1
+  mob: BAT
+  chance: 25
+  recipe-display-item: BAT_SPAWN_EGG
+CAT_MEAT:
+  category: extra_food
+  item-type: CUSTOM
+  item-name: "&b猫猫肉"
+  item-lore:
+    - "&7猫猫那么可爱你下的去口？"
+  item-id: MUTTON
+  item-amount: 1
+  mob: CAT
+  chance: 20
+  recipe-display-item: CAT_SPAWN_EGG
+DONKEY_OF_MEAT:
+  category: extra_food
+  item-type: CUSTOM
+  item-name: "&b驴肉"
+  item-lore:
+    - "&7你是完全没肉吃了是吗？"
+  item-id: MUTTON
+  item-amount: 1
+  mob: DONKEY
+  chance: 45
+  recipe-display-item: DONKEY_SPAWN_EGG
+FOX_MEAT:
+  category: extra_food
+  item-type: CUSTOM
+  item-name: "&b狐狸肉"
+  item-lore:
+    - "&7爱狐人士表示顺着网线过去干你"
+  item-id: RABBIT
+  item-amount: 1
+  mob: FOX
+  chance: 25
+  recipe-display-item: FOX_SPAWN_EGG
+HOGLIN_MEAT:
+  category: extra_food
+  item-type: CUSTOM
+  item-name: "&b疣猪肉"
+  item-lore:
+    - "&7被撅了？那就把它吃了！"
+  item-id: PORKCHOP
+  item-amount: 1
+  mob: HOGLIN
+  chance: 65
+  recipe-display-item: HOGLIN_SPAWN_EGG
+HORSE_MEAT:
+  category: extra_food
+  item-type: CUSTOM
+  item-name: "&b马肉"
+  item-lore:
+    - "&7你是什么都不放过啊，好好的坐骑……"
+  item-id: BEEF
+  item-amount: 1
+  mob: HORSE
+  chance: 65
+  recipe-display-item: HORSE_SPAWN_EGG
+LLAMA_MEAT:
+  category: extra_food
+  item-type: CUSTOM
+  item-name: "&b羊驼肉"
+  item-lore:
+    - "&7口感应该和别的羊差不多"
+  item-id: MUTTON
+  item-amount: 1
+  mob: LLAMA
+  chance: 40
+  recipe-display-item: LLAMA_SPAWN_EGG
+MULE_MEAT:
+  category: extra_food
+  item-type: CUSTOM
+  item-name: "&b骡肉"
+  item-lore:
+    - "&7继驴之后就是骡吗？"
+  item-id: PORKCHOP
+  item-amount: 1
+  mob: MULE
+  chance: 40
+  recipe-display-item: MULE_SPAWN_EGG
+TURTLE_MEAT:
+  category: extra_food
+  item-type: CUSTOM
+  item-name: "&b海龟肉"
+  item-lore:
+    - "&7属实是惨！"
+  item-id: PORKCHOP
+  item-amount: 1
+  mob: TURTLE
+  chance: 15
+  recipe-display-item: TURTLE_SPAWN_EGG

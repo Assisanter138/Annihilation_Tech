@@ -1,0 +1,530 @@
+AMETHYST_FRAGMENT_GENERATOR:
+  category: material_replacement_machine
+  item-name: "&5紫水晶产生器"
+  item-lore:
+  - "&7产出少量紫水晶"
+  block-type: BUDDING_AMETHYST
+  item-amount: 1
+  stats:
+    energy-consumption: 40
+    energy-buffer: 100
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+    2:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    3:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+    4:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    6:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    7:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+    8:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    9:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+  output:
+    tick-rate: 20
+    type: VANILLA
+    id: AMETHYST_SHARD
+    amount: 2
+BURSTING_SPRING_EYES_COPPER_POWDER:
+  category: powder_creation
+  item-name: "&6&l(铜粉)&5湮灭迸发泉眼"
+  item-lore:
+  - "&7此机器定向产出铜粉"
+  block-type: ORANGE_STAINED_GLASS
+  item-amount: 1
+  stats:
+    energy-consumption: 120
+    energy-buffer: 300
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+    2:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    3:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+    4:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: COPPER_INGOT
+      amount: 1
+    6:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    7:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+    8:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    9:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+  output:
+    tick-rate: 4
+    type: SLIMEFUN
+    id: COPPER_DUST
+    amount: 1
+BURSTING_SPRING_EYES_TIN_POWDER:
+  category: powder_creation
+  item-name: "&7&l(锡粉)&5湮灭迸发泉眼"
+  item-lore:
+  - "&7此机器定向产出锡粉"
+  block-type: GRAY_STAINED_GLASS
+  item-amount: 1
+  stats:
+    energy-consumption: 120
+    energy-buffer: 300
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+    2:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    3:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+    4:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: TIN_INGOT
+      amount: 1
+    6:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    7:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+    8:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    9:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+  output:
+    tick-rate: 4
+    type: SLIMEFUN
+    id: TIN_DUST
+    amount: 1
+BURSTING_SPRING_EYES_SILVER_POWDER:
+  category: powder_creation
+  item-name: "&f&l(银粉)&5湮灭迸发泉眼"
+  item-lore:
+  - "&7此机器定向产出银粉"
+  block-type: WHITE_STAINED_GLASS
+  item-amount: 1
+  stats:
+    energy-consumption: 120
+    energy-buffer: 300
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+    2:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    3:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+    4:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: SILVER_INGOT
+      amount: 1
+    6:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    7:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+    8:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    9:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+  output:
+    tick-rate: 4
+    type: SLIMEFUN
+    id: SILVER_DUST
+    amount: 1
+BURSTING_SPRING_EYES_LEAD_POWDER:
+  category: powder_creation
+  item-name: "&8&l(铅粉)&5湮灭迸发泉眼"
+  item-lore:
+  - "&7此机器定向产出铅粉"
+  block-type: LIGHT_GRAY_STAINED_GLASS
+  item-amount: 1
+  stats:
+    energy-consumption: 120
+    energy-buffer: 300
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+    2:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    3:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+    4:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: LEAD_INGOT
+      amount: 1
+    6:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    7:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+    8:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    9:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+  output:
+    tick-rate: 4
+    type: SLIMEFUN
+    id: LEAD_DUST
+    amount: 1
+BURSTING_SPRING_EYES_ALUMINUM_POWDER:
+  category: powder_creation
+  item-name: "&b&l(铝粉)&5湮灭迸发泉眼"
+  item-lore:
+  - "&7此机器定向产出铝粉"
+  block-type: CYAN_STAINED_GLASS
+  item-amount: 1
+  stats:
+    energy-consumption: 120
+    energy-buffer: 300
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+    2:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    3:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+    4:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: ALUMINUM_INGOT
+      amount: 1
+    6:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    7:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+    8:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    9:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+  output:
+    tick-rate: 4
+    type: SLIMEFUN
+    id: ALUMINUM_DUST
+    amount: 1
+BURSTING_SPRING_EYES_ZINC_POWDER:
+  category: powder_creation
+  item-name: "&9&l(锌粉)&5湮灭迸发泉眼"
+  item-lore:
+  - "&7此机器定向产出锌粉"
+  block-type: BLUE_STAINED_GLASS
+  item-amount: 1
+  stats:
+    energy-consumption: 120
+    energy-buffer: 300
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+    2:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    3:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+    4:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: ZINC_INGOT
+      amount: 1
+    6:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    7:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+    8:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    9:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+  output:
+    tick-rate: 4
+    type: SLIMEFUN
+    id: ZINC_DUST
+    amount: 1
+BURSTING_SPRING_EYES_MAGNESIUM_POWDER:
+  category: powder_creation
+  item-name: "&d&l(镁粉)&5湮灭迸发泉眼"
+  item-lore:
+  - "&7此机器定向产出镁粉"
+  block-type: PURPLE_STAINED_GLASS
+  item-amount: 1
+  stats:
+    energy-consumption: 120
+    energy-buffer: 300
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+    2:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    3:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+    4:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: MAGNESIUM_INGOT
+      amount: 1
+    6:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    7:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+    8:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    9:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+  output:
+    tick-rate: 4
+    type: SLIMEFUN
+    id: MAGNESIUM_DUST
+    amount: 1
+BURSTING_SPRING_EYES_IRON_POWDER:
+  category: powder_creation
+  item-name: "&d&l(铁粉)&5湮灭迸发泉眼"
+  item-lore:
+  - "&7此机器定向产出铁粉"
+  block-type: PURPLE_STAINED_GLASS
+  item-amount: 1
+  stats:
+    energy-consumption: 120
+    energy-buffer: 300
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+    2:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    3:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+    4:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    5:
+      type: VANILLA
+      id: IRON_INGOT
+      amount: 1
+    6:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    7:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+    8:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    9:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+  output:
+    tick-rate: 4
+    type: SLIMEFUN
+    id: IRON_DUST
+    amount: 1
+BURSTING_SPRING_EYES_GOLD_POWDER:
+  category: powder_creation
+  item-name: "&e&l(金粉)&5湮灭迸发泉眼"
+  item-lore:
+  - "&7此机器定向产出金粉"
+  block-type: PURPLE_STAINED_GLASS
+  item-amount: 1
+  stats:
+    energy-consumption: 120
+    energy-buffer: 300
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+    2:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    3:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+    4:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    5:
+      type: VANILLA
+      id: GOLD_INGOT
+      amount: 1
+    6:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    7:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+    8:
+      type: VANILLA
+      id: BRICKS
+      amount: 1
+    9:
+      type: VANILLA
+      id: CLAY
+      amount: 1
+  output:
+    tick-rate: 4
+    type: SLIMEFUN
+    id: GOLD_DUST
+    amount: 1

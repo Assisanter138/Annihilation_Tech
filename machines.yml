@@ -1,0 +1,2346 @@
+PRIMARY_STRENGTHENING_ALLOY:
+  category: annihilation_machine
+  machine-name: '&b&l强化合金一体机&8·&e初阶'
+  machine-lore:
+  - '&7强化合金锭生产器'
+  block-type: TINTED_GLASS
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 300
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ANNIHILATION_TECHNOLOGY_MODULAR_COMPONENTS
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: REINFORCED_ALLOY_INGOT
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ANNIHILATION_TECHNOLOGY_MODULAR_COMPONENTS
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 30
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: REINFORCED_ALLOY_INGOT
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HIGH_ORDER_STRONG_INTEGRATION:
+  category: annihilation_machine
+  machine-name: '&b&l强化合金一体机&8·&4高阶'
+  machine-lore:
+  - '&7在初阶的基础上再度强化'
+  block-type: TINTED_GLASS
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 500
+    energy-buffer: 2000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: HIGH-ORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: PRIMARY_STRENGTHENING_ALLOY
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: HIGH-ORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BLOCK
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BLOCK
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BLOCK
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 20
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: REINFORCED_ALLOY_INGOT
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+SUPER_ORDER_STRONG_INTEGRATION:
+  category: annihilation_machine
+  machine-name: '&b&l强化合金一体机&8·&9超阶'
+  machine-lore:
+  - '&7在高阶的基础上再度强化'
+  block-type: TINTED_GLASS
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 800
+    energy-buffer: 3000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: PROMOTER_CORE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: PROMOTER_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: PROMOTER_CORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: SUPER_TECHNOLOGY_CORE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HIGH_ORDER_STRONG_INTEGRATION
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: SUPER_TECHNOLOGY_CORE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 10
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: REINFORCED_ALLOY_INGOT
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+PRIMARY_HARDENING_METAL:
+  category: annihilation_machine
+  machine-name: '&8&l硬化金属一体机&8·&e初阶'
+  machine-lore:
+  - '&7硬化金属锭生产器'
+  block-type: GLASS
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 300
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ANNIHILATION_TECHNOLOGY_MODULAR_COMPONENTS
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HARDENED_METAL_INGOT
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ANNIHILATION_TECHNOLOGY_MODULAR_COMPONENTS
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 30
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: HARDENED_METAL_INGOT
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HIGH_LEVEL_HARD_METAL_INTEGRATION:
+  category: annihilation_machine
+  machine-name: '&8&l硬化金属一体机&8·&4高阶'
+  machine-lore:
+  - '&7在初阶的基础上再度强化'
+  block-type: GLASS
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 500
+    energy-buffer: 2000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: HIGH-ORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: PRIMARY_HARDENING_METAL
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: HIGH-ORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BLOCK
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BLOCK
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BLOCK
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 20
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: HARDENED_METAL_INGOT
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+SUPER_HARD_GOLD_INTEGRATION:
+  category: annihilation_machine
+  machine-name: '&8&l硬化金属一体机&8·&9超阶'
+  machine-lore:
+  - '&7在高阶的基础上再度强化'
+  block-type: GLASS
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 800
+    energy-buffer: 3000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: PROMOTER_CORE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: PROMOTER_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: PROMOTER_CORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: SUPER_TECHNOLOGY_CORE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_HARD_METAL_INTEGRATION
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: SUPER_TECHNOLOGY_CORE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 10
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: HARDENED_METAL_INGOT
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+PRIMARY_RUTILE_ALLOY:
+  category: annihilation_machine
+  machine-name: '&c&l红石合金一体机&8·&e初阶'
+  machine-lore:
+  - '&7红石合金锭生产器'
+  block-type: BRICKS
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 300
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ANNIHILATION_TECHNOLOGY_MODULAR_COMPONENTS
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: REDSTONE_ALLOY
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ANNIHILATION_TECHNOLOGY_MODULAR_COMPONENTS
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 30
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: REDSTONE_ALLOY
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HIGH_GRADE_RED_IN_ONE:
+  category: annihilation_machine
+  machine-name: '&c&l红石合金一体机&8·&4高阶'
+  machine-lore:
+  - '&7在初阶的基础上再度强化'
+  block-type: BRICKS
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 500
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: HUAXU_CORE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HUAXU_CORE
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: HIGH-ORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BLOCK
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BLOCK
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BLOCK
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 20
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: REDSTONE_ALLOY
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+SUPER_RED_INTEGRATION:
+  category: annihilation_machine
+  machine-name: '&c&l红石合金一体机&8·&9超阶'
+  machine-lore:
+  - '&7在高阶的基础上再度强化'
+  block-type: BRICKS
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 500
+    energy-buffer: 1200
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: PROMOTER_CORE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: PROMOTER_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: PROMOTER_CORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: SUPER_TECHNOLOGY_CORE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HIGH_GRADE_RED_IN_ONE
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: SUPER_TECHNOLOGY_CORE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 10
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: REDSTONE_ALLOY
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+PRIMARY_ARTIFICIAL_EMERALD:
+  category: annihilation_machine
+  machine-name: '&a&l人造绿宝石一体机&8·&e初阶'
+  machine-lore:
+  - '&7人造绿宝石生产器'
+  block-type: EMERALD_BLOCK
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 300
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ANNIHILATION_TECHNOLOGY_MODULAR_COMPONENTS
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: SYNTHETIC_EMERALD
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ANNIHILATION_TECHNOLOGY_MODULAR_COMPONENTS
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 30
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SYNTHETIC_EMERALD
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HIGH_LEVEL_SYNTHETIC_EMERALD:
+  category: annihilation_machine
+  machine-name: '&a&l人造绿宝石一体机&8·&4高阶'
+  machine-lore:
+  - '&7在初阶的基础上再度强化'
+  block-type: EMERALD_BLOCK
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 500
+    energy-buffer: 2000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: HIGH-ORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: PRIMARY_ARTIFICIAL_EMERALD
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: HIGH-ORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BLOCK
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BLOCK
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BLOCK
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 20
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SYNTHETIC_EMERALD
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+SUPER_GRADE_SYNTHETIC_EMERALD:
+  category: annihilation_machine
+  machine-name: '&a&l人造绿宝石一体机&8·&9超阶'
+  machine-lore:
+  - '&7在高阶的基础上再度强化'
+  block-type: EMERALD_BLOCK
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 1000
+    energy-buffer: 3000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: PROMOTER_CORE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: PROMOTER_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: PROMOTER_CORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: SUPER_TECHNOLOGY_CORE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_SYNTHETIC_EMERALD
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: SUPER_TECHNOLOGY_CORE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 10
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SYNTHETIC_EMERALD
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+PRIMARY_FREIGHT_MOTOR:
+  category: annihilation_machine
+  machine-name: '&b货运马达一体机&8·&e初阶'
+  machine-lore:
+  - '&7货运马达生产器'
+  block-type: SMITHING_TABLE
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 500
+    energy-buffer: 1200
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ANNIHILATION_TECHNOLOGY_MODULAR_COMPONENTS
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: CARGO_MOTOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ANNIHILATION_TECHNOLOGY_MODULAR_COMPONENTS
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 30
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CARGO_MOTOR
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+INTEGRATED_HIGH_ORDER_FREIGHT_MOTOR:
+  category: annihilation_machine
+  machine-name: '&b货运马达一体机&8·&4高阶'
+  machine-lore:
+  - '&7在初阶机器上再度强化'
+  block-type: SMITHING_TABLE
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 500
+    energy-buffer: 1200
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: HIGH-ORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: PRIMARY_FREIGHT_MOTOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: HIGH-ORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BLOCK
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BLOCK
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BLOCK
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 20
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CARGO_MOTOR
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+INTEGRATED_SUPER_FREIGHT_MOTOR:
+  category: annihilation_machine
+  machine-name: '&b货运马达一体机&8·&9超阶'
+  machine-lore:
+  - '&7在高阶机器上再度强化'
+  block-type: SMITHING_TABLE
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 1000
+    energy-buffer: 3000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: PROMOTER_CORE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: PROMOTER_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: PROMOTER_CORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: SUPER_TECHNOLOGY_CORE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: PRIMARY_FREIGHT_MOTOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: SUPER_TECHNOLOGY_CORE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 10
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CARGO_MOTOR
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+PRIMARY_ELECTROMAGNET:
+  category: annihilation_machine
+  machine-name: '&1电磁铁一体机&8·&e初阶'
+  machine-lore:
+  - '&7电磁铁生产器'
+  block-type: LODESTONE
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 300
+    energy-buffer: 1200
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ANNIHILATION_TECHNOLOGY_MODULAR_COMPONENTS
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ELECTRO_MAGNET
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ANNIHILATION_TECHNOLOGY_MODULAR_COMPONENTS
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 30
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ELECTRO_MAGNET
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+INTEGRATED_HIGH_ORDER_ELECTROMAGNET:
+  category: annihilation_machine
+  machine-name: '&1电磁铁一体机&8·&4高阶'
+  machine-lore:
+  - '&7初阶机器的基础上再度强化'
+  block-type: LODESTONE
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 500
+    energy-buffer: 2000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: HIGH-ORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: PRIMARY_ELECTROMAGNET
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: HIGH-ORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BLOCK
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BLOCK
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BLOCK
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 20
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ELECTRO_MAGNET
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+INTEGRATED_SUPER_STEP_ELECTROMAGNET:
+  category: annihilation_machine
+  machine-name: '&1电磁铁一体机&8·&9超阶'
+  machine-lore:
+  - '&7高阶机器的基础上再度强化'
+  block-type: LODESTONE
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 1000
+    energy-buffer: 3000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: PROMOTER_CORE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: PROMOTER_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: PROMOTER_CORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: SUPER_TECHNOLOGY_CORE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: INTEGRATED_HIGH_ORDER_ELECTROMAGNET
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: SUPER_TECHNOLOGY_CORE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 10
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ELECTRO_MAGNET
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+INITIAL_24K_GOLD_INGOT:
+  category: annihilation_machine
+  machine-name: '&e&l24k金锭一体机&8·&e初阶'
+  machine-lore:
+  - '&724k金锭生产器'
+  block-type: GOLD_BLOCK
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 300
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ANNIHILATION_TECHNOLOGY_MODULAR_COMPONENTS
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: GOLD_24K
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ANNIHILATION_TECHNOLOGY_MODULAR_COMPONENTS
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 30
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: GOLD_24K
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HIGH_LEVEL_24K_GOLD_INGOT:
+  category: annihilation_machine
+  machine-name: '&e&l24k金锭一体机&8·&4高阶'
+  machine-lore:
+  - '&7初阶机器的再度强化'
+  block-type: GOLD_BLOCK
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 500
+    energy-buffer: 2000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: HIGH-ORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: INITIAL_24K_GOLD_INGOT
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: HIGH-ORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BLOCK
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BLOCK
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BLOCK
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 20
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: GOLD_24K
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+SUPER_LEVEL_24K_GOLD_INGOT:
+  category: annihilation_machine
+  machine-name: '&e&l24k金锭一体机&8·&9超阶'
+  machine-lore:
+  - '&7高阶机器的再度强化'
+  block-type: GOLD_BLOCK
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 1000
+    energy-buffer: 2400
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: PROMOTER_CORE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: PROMOTER_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: PROMOTER_CORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: SUPER_TECHNOLOGY_CORE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_24K_GOLD_INGOT
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: SUPER_TECHNOLOGY_CORE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 10
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: GOLD_24K
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+INITIAL_LOWER_BOUND_STAR:
+  category: annihilation_machine
+  machine-name: '&f&l下界星一体机&8·&e初阶'
+  machine-lore:
+  - '&7下界之星生产器'
+  block-type: DIAMOND_BLOCK
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 700
+    energy-buffer: 2000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ANNIHILATION_TECHNOLOGY_MODULAR_COMPONENTS
+      amount: 1
+    '5':
+      type: VANILLA
+      id: NETHER_STAR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ANNIHILATION_TECHNOLOGY_MODULAR_COMPONENTS
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 30
+      input:
+        '1':
+          type: VANILLA
+          id: SOUL_SAND
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: NETHER_STAR
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HIGH_LEVEL_LOWER_BOUND_STAR_INTEGRATION:
+  category: annihilation_machine
+  machine-name: '&f&l下界星一体机&8·&4高阶'
+  machine-lore:
+  - '&7初阶机器的再度强化'
+  block-type: DIAMOND_BLOCK
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 1500
+    energy-buffer: 3600
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: HIGH-ORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: INITIAL_LOWER_BOUND_STAR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: HIGH-ORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BLOCK
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BLOCK
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BLOCK
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 20
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: NETHER_STAR
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+SUPER_LOWER_BOUND_STAR_ONE:
+  category: annihilation_machine
+  machine-name: '&f&l下界星一体机&8·&9超阶'
+  machine-lore:
+  - '&7高阶机器的再度强化'
+  block-type: DIAMOND_BLOCK
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 1500
+    energy-buffer: 4000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: PROMOTER_CORE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: PROMOTER_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: PROMOTER_CORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: SUPER_TECHNOLOGY_CORE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_LOWER_BOUND_STAR_INTEGRATION
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: SUPER_TECHNOLOGY_CORE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 10
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: NETHER_STAR
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+PRIMARY_QUARTZ:
+  category: annihilation_machine
+  machine-name: '&7&l石英一体机&8·&e初阶'
+  machine-lore:
+  - '&7石英生产器'
+  block-type: QUARTZ_BLOCK
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 300
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ANNIHILATION_TECHNOLOGY_MODULAR_COMPONENTS
+      amount: 1
+    '5':
+      type: VANILLA
+      id: QUARTZ
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ANNIHILATION_TECHNOLOGY_MODULAR_COMPONENTS
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 30
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: QUARTZ
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HIGH_ORDER_QUARTZ:
+  category: annihilation_machine
+  machine-name: '&7&l石英一体机&8·&4高阶'
+  machine-lore:
+  - '&7初阶机器的再度强化'
+  block-type: QUARTZ_BLOCK
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 500
+    energy-buffer: 1200
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: HIGH-ORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: PRIMARY_QUARTZ
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: HIGH-ORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BLOCK
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BLOCK
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BLOCK
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 20
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: QUARTZ
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+ULTRA_STEP_QUARTZ:
+  category: annihilation_machine
+  machine-name: '&7&l石英一体机&8·&9超阶'
+  machine-lore:
+  - '&7高阶机器的再度强化'
+  block-type: QUARTZ_BLOCK
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 1000
+    energy-buffer: 3000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: PROMOTER_CORE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: PROMOTER_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: PROMOTER_CORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: SUPER_TECHNOLOGY_CORE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HIGH_ORDER_QUARTZ
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: SUPER_TECHNOLOGY_CORE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 10
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: QUARTZ
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+PRIMARY_OBSIDIAN:
+  category: annihilation_machine
+  machine-name: '&d&l黑曜石一体机&8·&e初阶'
+  machine-lore:
+  - '&7黑曜石生产器'
+  block-type: OBSIDIAN
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 50
+    energy-buffer: 140
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ANNIHILATION_TECHNOLOGY_MODULAR_COMPONENTS
+      amount: 1
+    '5':
+      type: VANILLA
+      id: OBSIDIAN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ANNIHILATION_TECHNOLOGY_MODULAR_COMPONENTS
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 40
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: OBSIDIAN
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HIGH_GRADE_OBSIDIAN:
+  category: annihilation_machine
+  machine-name: '&d&l黑曜石一体机&8·&4高阶'
+  machine-lore:
+  - '&7初阶机器的再度强化'
+  block-type: OBSIDIAN
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 80
+    energy-buffer: 200
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: HIGH-ORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: PRIMARY_OBSIDIAN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: HIGH-ORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BLOCK
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BLOCK
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BLOCK
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 15
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: OBSIDIAN
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+SUPER_OBSIDIAN:
+  category: annihilation_machine
+  machine-name: '&d&l黑曜石一体机&8·&9超阶'
+  machine-lore:
+  - '&7高阶机器的再度强化'
+  block-type: OBSIDIAN
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 150
+    energy-buffer: 320
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: PROMOTER_CORE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: PROMOTER_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: PROMOTER_CORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: SUPER_TECHNOLOGY_CORE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HIGH_GRADE_OBSIDIAN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: SUPER_TECHNOLOGY_CORE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 10
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: OBSIDIAN
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+PRIMARY_PRODUCT_PURIFIER:
+  category: annihilation_machine
+  machine-name: '&2&l副产物提纯器&8·&e初阶'
+  machine-lore:
+  - '&7从高辐射物中提纯钚'
+  block-type: LIGHT_GRAY_CONCRETE
+  progress-bar-item: LAVA_BUCKET
+  stats:
+    energy-consumption: 600
+    energy-buffer: 1500
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: BOOSTED_URANIUM
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ENRICHED_NETHER_ICE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: BOOSTED_URANIUM
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: NUCLEAR_REACTOR
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: URANIUM_EXTRACTOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: NETHERSTAR_REACTOR
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: BOOSTED_URANIUM
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ENRICHED_NETHER_ICE
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: BOOSTED_URANIUM
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 30
+      input:
+        '1':
+          type: SLIMEFUN
+          id: BUCKET_OF_FUEL
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: PLUTONIUM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HIGH_ORDER_PRODUCT_PURIFIER:
+  category: annihilation_machine
+  machine-name: '&2&l副产物提纯器&8·&4高阶'
+  machine-lore:
+  - '&7生产钚的速度有所提升'
+  block-type: LIGHT_GRAY_CONCRETE
+  progress-bar-item: LAVA_BUCKET
+  stats:
+    energy-consumption: 1200
+    energy-buffer: 2600
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: HIGH-ORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: HIGH-ORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: PRIMARY_PRODUCT_PURIFIER
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: HIGH-ORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: HIGH-ORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 20
+      input:
+        '1':
+          type: SLIMEFUN
+          id: BUCKET_OF_FUEL
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: PLUTONIUM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+SUPER_ORDER_PRODUCT_PURIFIER:
+  category: annihilation_machine
+  machine-name: '&2&l副产物提纯器&8·&9超阶'
+  machine-lore:
+  - '&7生产钚的速度再次提升'
+  block-type: LIGHT_GRAY_CONCRETE
+  progress-bar-item: LAVA_BUCKET
+  stats:
+    energy-consumption: 1200
+    energy-buffer: 3000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: SUPER_TECHNOLOGY_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: SUPER_TECHNOLOGY_CORE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HIGH_ORDER_PRODUCT_PURIFIER
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: SUPER_TECHNOLOGY_CORE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: SUPER_TECHNOLOGY_CORE
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: SUPERORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 10
+      input:
+        '1':
+          type: SLIMEFUN
+          id: BUCKET_OF_FUEL
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: PLUTONIUM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+AMETHYST_CRUSHER:
+  category: material_replacement_machine
+  machine-name: '&d紫水晶碾碎机'
+  machine-lore:
+  - '&7人造紫水晶生成器'
+  block-type: PURPUR_BLOCK
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 250
+    energy-buffer: 600
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: CORE_OF_ANNIHILATION
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ANNIHILATION_TECHNOLOGY_INGOT
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: PROGRAMMABLE_ANDROID_3
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: SUPREME_SYNTHETIC_AMETHYST
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: PROGRAMMABLE_ANDROID_3
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ANNIHILATION_TECHNOLOGY_INGOT
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: CORE_OF_ANNIHILATION
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 10
+      input:
+        '1':
+          type: VANILLA
+          id: AMETHYST_SHARD
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SUPREME_SYNTHETIC_AMETHYST
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1

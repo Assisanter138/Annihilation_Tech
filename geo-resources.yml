@@ -1,0 +1,48 @@
+VOID_MINER:
+  category: crystalline_mining
+  item-type: CUSTOM
+  item-name: "&b凝聚&8&l虚空&b中的结晶体"
+  item-lore:
+    - "&7末地虚空中漂浮着些许"
+  item-id: POPPED_CHORUS_FRUIT
+  max-deviation: 32
+  environment:
+    NORMAL: 0
+    THE_END: 16
+HELL_MINER:
+  category: crystalline_mining
+  item-type: CUSTOM
+  item-name: "&b凝聚&4&l熔岩&b中的结晶体"
+  item-lore:
+    - "&7熔岩中沉淀着的小块"
+  item-id: BLAZE_POWDER
+  max-deviation: 64
+  environment:
+    NORMAL: 0
+    NETHER: 32
+PLAIN_MINER:
+  category: crystalline_mining
+  item-type: CUSTOM
+  item-name: "&b凝聚&7&l气体中的结晶体"
+  item-lore:
+    - "&7气体里包含的某些元素"
+  item-id: FEATHER
+  max-deviation: 128
+  biome:
+    PLAINS: 64
+  environment:
+    NORMAL: 0
+    NETHER: 0
+SEA_MINER:
+  category: crystalline_mining
+  item-type: CUSTOM
+  item-name: "&b凝聚&9&l湖泊&b中的结晶体"
+  item-lore:
+    - "&7湖泊中残留的些许杂质"
+  item-id: PRISMARINE_CRYSTALS
+  max-deviation: 256
+  biome:
+    PLAINS: 128
+  environment:
+    NORMAL: 0
+    NETHER: 0

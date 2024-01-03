@@ -1,0 +1,2097 @@
+CORE_OF_ANNIHILATION:
+  category: synthetics
+  item-type: CUSTOM
+  item-name: "&b湮灭核心·I"
+  item-lore:
+  - ""
+  - "&e&l基础材料"
+  item-id: AMETHYST_SHARD
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: PLUTONIUM
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: PLUTONIUM
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: PLUTONIUM
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: PLUTONIUM
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOOSTED_URANIUM
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: PLUTONIUM
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: PLUTONIUM
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: PLUTONIUM
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: PLUTONIUM
+      amount: 1
+PRIMARY_TECHNOLOGY_CORE:
+  category: synthetics
+  item-type: CUSTOM
+  item-name: "&b湮灭科技核心·III"
+  item-lore:
+  - ""
+  - "&e&l基础合成材料"
+  item-id: AMETHYST_SHARD
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: CORE_OF_ANNIHILATION
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: CORE_OF_ANNIHILATION
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: CORE_OF_ANNIHILATION
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: CORE_OF_ANNIHILATION
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+HIGH_LEVEL_TECHNOLOGY_CORE:
+  category: synthetics
+  item-type: CUSTOM
+  item-name: "&b湮灭科技核心·V"
+  item-lore:
+  - ""
+  - "&e&l基础合成材料"
+  item-id: AMETHYST_SHARD
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: PRIMARY_TECHNOLOGY_CORE
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: PRIMARY_TECHNOLOGY_CORE
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: PRIMARY_TECHNOLOGY_CORE
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: PRIMARY_TECHNOLOGY_CORE
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+SUPER_TECHNOLOGY_CORE:
+  category: synthetics
+  item-type: CUSTOM
+  item-name: "&b湮灭科技核心·Ex"
+  item-lore:
+  - ""
+  - "&e&l基础合成材料"
+  item-id: AMETHYST_SHARD
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: HIGH_LEVEL_TECHNOLOGY_CORE
+      amount: 1
+GESTALT_CORE:
+  category: synthetics
+  item-type: CUSTOM
+  item-name: "&b格式塔核心"
+  item-lore:
+  - ""
+  - "&e&l进阶合成材料"
+  item-id: AMETHYST_BLOCK
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: SUPER_TECHNOLOGY_CORE
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: SUPER_TECHNOLOGY_CORE
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: SUPER_TECHNOLOGY_CORE
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: SUPER_TECHNOLOGY_CORE
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: PROGRAMMABLE_ANDROID_3
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: SUPER_TECHNOLOGY_CORE
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: SUPER_TECHNOLOGY_CORE
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: SUPER_TECHNOLOGY_CORE
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: SUPER_TECHNOLOGY_CORE
+      amount: 1
+HUAXU_CORE:
+  category: synthetics
+  item-type: CUSTOM
+  item-name: "&b华胥核心"
+  item-lore:
+  - ""
+  - "&e&l进阶合成材料"
+  item-id: AMETHYST_BLOCK
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: GESTALT_CORE
+      amount: 1
+PROMOTER_CORE:
+  category: synthetics
+  item-type: CUSTOM
+  item-name: "&b万世铭核心"
+  item-lore:
+  - ""
+  - "&e&l进阶合成材料"
+  item-id: AMETHYST_BLOCK
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: HUAXU_CORE
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: HUAXU_CORE
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: HUAXU_CORE
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: HUAXU_CORE
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: HUAXU_CORE
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: HUAXU_CORE
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: HUAXU_CORE
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: HUAXU_CORE
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: HUAXU_CORE
+      amount: 1
+ANNIHILATION_TECHNOLOGY_INGOT:
+  category: synthetics
+  item-type: CUSTOM
+  item-name: "&b湮灭科技锭"
+  item-lore:
+  - "&7湮灭技术革新"
+  - "&c与湮灭核心相辅相成"
+  item-id: IRON_INGOT
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: REINFORCED_ALLOY_INGOT
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: HARDENED_METAL_INGOT
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: NICKEL_INGOT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: COBALT_INGOT
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+ANNIHILATION_SINGULARITY:
+  category: synthetics
+  item-type: CUSTOM
+  item-name: "&b湮灭运算体"
+  item-lore:
+  - "&7湮灭结合体"
+  - "&c核心内部自行演算的结果"
+  item-id: IRON_INGOT
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: SYNTHETIC_SAPPHIRE
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: SYNTHETIC_SAPPHIRE
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: SYNTHETIC_SAPPHIRE
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: SYNTHETIC_DIAMOND
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: SYNTHETIC_DIAMOND
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: SYNTHETIC_DIAMOND
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: SYNTHETIC_EMERALD
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: SYNTHETIC_EMERALD
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: SYNTHETIC_EMERALD
+      amount: 1
+INITIAL_ANNIHILATION_SINGULARITY:
+  category: synthetics
+  item-type: CUSTOM
+  item-name: "&b湮灭运算体·初阶"
+  item-lore:
+  - "&7集成湮灭运算体"
+  - "&c又进一步的合成"
+  item-id: IRON_INGOT
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ANNIHILATION_SINGULARITY
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ANNIHILATION_SINGULARITY
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ANNIHILATION_SINGULARITY
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ANNIHILATION_SINGULARITY
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: ANNIHILATION_SINGULARITY
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ANNIHILATION_SINGULARITY
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ANNIHILATION_SINGULARITY
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: ANNIHILATION_SINGULARITY
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ANNIHILATION_SINGULARITY
+      amount: 1
+ADVANCED_ANNIHILATION_SINGULARITY:
+  category: synthetics
+  item-type: CUSTOM
+  item-name: "&b湮灭运算晶体·中阶"
+  item-lore:
+  - "&7集成湮灭运算体·初阶"
+  - "&c又双进一步的合成"
+  item-id: IRON_INGOT
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: INITIAL_ANNIHILATION_SINGULARITY
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: INITIAL_ANNIHILATION_SINGULARITY
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: INITIAL_ANNIHILATION_SINGULARITY
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: INITIAL_ANNIHILATION_SINGULARITY
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: INITIAL_ANNIHILATION_SINGULARITY
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: INITIAL_ANNIHILATION_SINGULARITY
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: INITIAL_ANNIHILATION_SINGULARITY
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: INITIAL_ANNIHILATION_SINGULARITY
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: INITIAL_ANNIHILATION_SINGULARITY
+      amount: 1
+HIGH-ORDER_ANNIHILATION_SINGULARITY:
+  category: synthetics
+  item-type: CUSTOM
+  item-name: "&b湮灭运算体·高阶"
+  item-lore:
+  - "&7集成湮灭运算体·中阶"
+  - "&c又双叒进一步的合成"
+  item-id: IRON_BLOCK
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ADVANCED_ANNIHILATION_SINGULARITY
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ADVANCED_ANNIHILATION_SINGULARITY
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ADVANCED_ANNIHILATION_SINGULARITY
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ADVANCED_ANNIHILATION_SINGULARITY
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: ADVANCED_ANNIHILATION_SINGULARITY
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ADVANCED_ANNIHILATION_SINGULARITY
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ADVANCED_ANNIHILATION_SINGULARITY
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: ADVANCED_ANNIHILATION_SINGULARITY
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ADVANCED_ANNIHILATION_SINGULARITY
+      amount: 1
+FINAL_ANNIHILATION_SINGULARITY:
+  category: synthetics
+  item-type: CUSTOM
+  item-name: "&b湮灭运算体·终阶"
+  item-lore:
+  - "&7集成湮灭运算体·高阶"
+  - "&c快达到顶点了，泛着微光"
+  item-id: IRON_BLOCK
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: HIGH-ORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: HIGH-ORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: HIGH-ORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: HIGH-ORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: HIGH-ORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: HIGH-ORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: HIGH-ORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: HIGH-ORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: HIGH-ORDER_ANNIHILATION_SINGULARITY
+      amount: 1
+SUPERORDER_ANNIHILATION_SINGULARITY:
+  category: synthetics
+  item-type: CUSTOM
+  item-name: "&b湮灭运算体·超阶"
+  item-lore:
+  - "&7湮灭运算体·终阶"
+  - "&c运算体的最终成品"
+  item-id: IRON_BLOCK
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: FINAL_ANNIHILATION_SINGULARITY
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: FINAL_ANNIHILATION_SINGULARITY
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: FINAL_ANNIHILATION_SINGULARITY
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: FINAL_ANNIHILATION_SINGULARITY
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: FINAL_ANNIHILATION_SINGULARITY
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: FINAL_ANNIHILATION_SINGULARITY
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: FINAL_ANNIHILATION_SINGULARITY
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: FINAL_ANNIHILATION_SINGULARITY
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: FINAL_ANNIHILATION_SINGULARITY
+      amount: 1
+FLOWER_OF_ANNIHILATION:
+  category: synthetics
+  item-type: CUSTOM
+  item-name: "&4&l湮灭之花"
+  item-lore:
+  - "&7被污染而变异的荆棘之花"
+  - "&e进阶合成材料"
+  item-id: WITHER_ROSE
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: PLUTONIUM
+      amount: 1
+    2:
+      type: VANILLA
+      id: NETHER_STAR
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: PLUTONIUM
+      amount: 1
+    4:
+      type: VANILLA
+      id: NETHER_STAR
+      amount: 1
+    5:
+      type: VANILLA
+      id: POPPY
+      amount: 1
+    6:
+      type: VANILLA
+      id: NETHER_STAR
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: PLUTONIUM
+      amount: 1
+    8:
+      type: VANILLA
+      id: NETHER_STAR
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: PLUTONIUM
+      amount: 1
+RED_TIDE_ABYSS:
+  category: synthetics
+  item-type: CUSTOM
+  item-name: "&c&l红潮块"
+  item-lore:
+  - "&7红潮块覆盖之处寸草不生"
+  - "&cΩ引擎内部空腔爆发的恶性病菌体"
+  item-id: NETHER_WART_BLOCK
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: FLOWER_OF_ANNIHILATION
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: FLOWER_OF_ANNIHILATION
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: FLOWER_OF_ANNIHILATION
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: FLOWER_OF_ANNIHILATION
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: CORE_OF_ANNIHILATION
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: FLOWER_OF_ANNIHILATION
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: FLOWER_OF_ANNIHILATION
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: FLOWER_OF_ANNIHILATION
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: FLOWER_OF_ANNIHILATION
+      amount: 1
+RED_TIDE_GHOST_CLUSTER:
+  category: synthetics
+  item-type: CUSTOM
+  item-name: "&8红潮冤魂簇"
+  item-lore:
+  - "&7被红潮块吞没的冤死灵魂"
+  - "&c能听到冤魂的哀嚎与深渊的引诱之声"
+  item-id: SOUL_SAND
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: CORE_OF_ANNIHILATION
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: CORE_OF_ANNIHILATION
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: CORE_OF_ANNIHILATION
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: CORE_OF_ANNIHILATION
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: RED_TIDE_ABYSS
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: CORE_OF_ANNIHILATION
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: CORE_OF_ANNIHILATION
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: CORE_OF_ANNIHILATION
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: CORE_OF_ANNIHILATION
+      amount: 1
+ANNIHILATION_CORE_SHELL:
+  category: synthetics
+  item-type: CUSTOM
+  item-name: "&c&l核心外壳"
+  item-lore:
+  - "&7核心外壳的保护框架"
+  - "&c保护核心使其正常运作"
+  item-id: REDSTONE_BLOCK
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: WITHER_PROOF_GLASS
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: WITHER_PROOF_GLASS
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: WITHER_PROOF_GLASS
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: WITHER_PROOF_GLASS
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: CORE_OF_ANNIHILATION
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: WITHER_PROOF_GLASS
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: WITHER_PROOF_GLASS
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: WITHER_PROOF_GLASS
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: WITHER_PROOF_GLASS
+      amount: 1
+ANNIHILATION_ENERGY_BODY:
+  category: synthetics
+  item-type: CUSTOM
+  item-name: "&e&l湮灭能量体"
+  item-lore:
+  - "&7湮灭科技早期技术成果"
+  - "&c其强大能量可跨等级强化机器"
+  item-id: NETHERITE_INGOT
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ANNIHILATION_CORE_SHELL
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: FLOWER_OF_ANNIHILATION
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ANNIHILATION_CORE_SHELL
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: FLOWER_OF_ANNIHILATION
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: CORE_OF_ANNIHILATION
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: FLOWER_OF_ANNIHILATION
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ANNIHILATION_CORE_SHELL
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: FLOWER_OF_ANNIHILATION
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ANNIHILATION_CORE_SHELL
+      amount: 1
+ANNIHILATION_ENERGY_BLOCK:
+  category: synthetics
+  item-type: CUSTOM
+  item-name: "&e&l湮灭能量块"
+  item-lore:
+  - "&7能量体的进一步压缩"
+  - "&c比能量体拥有更强大的强化升级幅度"
+  item-id: NETHERITE_BLOCK
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+ANNIHILATION_TECHNOLOGY_MODULAR_COMPONENTS:
+  category: synthetics
+  item-type: CUSTOM
+  item-name: "&9模块化组件"
+  item-lore:
+  - "&7机器跨级式辅助增长配件"
+  - "&c初期成功研发的模块化组件"
+  item-id: BRICK
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ANNIHILATION_TECHNOLOGY_INGOT
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ANNIHILATION_TECHNOLOGY_INGOT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: CORE_OF_ANNIHILATION
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ANNIHILATION_TECHNOLOGY_INGOT
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: ANNIHILATION_TECHNOLOGY_INGOT
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ANNIHILATION_ENERGY_BODY
+      amount: 1
+A_BUNDLE_OF_PLASTIC_PAPER:
+  category: synthetics
+  item-type: CUSTOM
+  item-name: "&f一捆塑料纸"
+  item-lore:
+  - "&7塑料纸技术革新"
+  - "&c由几张塑料纸堆叠合成"
+  item-id: PAPER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: PLASTIC_SHEET
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: PLASTIC_SHEET
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: PLASTIC_SHEET
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: PLASTIC_SHEET
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+A_PILE_OF_PLASTIC_PAPER:
+  category: synthetics
+  item-type: CUSTOM
+  item-name: "&f一堆塑料纸"
+  item-lore:
+  - "&7塑料纸堆叠"
+  - "&c由几捆塑料纸合成"
+  item-id: PAPER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: A_BUNDLE_OF_PLASTIC_PAPER
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: A_BUNDLE_OF_PLASTIC_PAPER
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: A_BUNDLE_OF_PLASTIC_PAPER
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: A_BUNDLE_OF_PLASTIC_PAPER
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: A_BUNDLE_OF_PLASTIC_PAPER
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: A_BUNDLE_OF_PLASTIC_PAPER
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: A_BUNDLE_OF_PLASTIC_PAPER
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: A_BUNDLE_OF_PLASTIC_PAPER
+      amount: 1
+PLASTIC_BLOCK:
+  category: synthetics
+  item-type: CUSTOM
+  item-name: "&f塑料块"
+  item-lore:
+  - "&7难以想象塑料纸也能成块"
+  - "&c几堆塑料纸和粘液物结合"
+  item-id: WHITE_CONCRETE
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: A_PILE_OF_PLASTIC_PAPER
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: A_PILE_OF_PLASTIC_PAPER
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: A_PILE_OF_PLASTIC_PAPER
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: A_PILE_OF_PLASTIC_PAPER
+      amount: 1
+    5:
+      type: VANILLA
+      id: SLIME_BALL
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: A_PILE_OF_PLASTIC_PAPER
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: A_PILE_OF_PLASTIC_PAPER
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: A_PILE_OF_PLASTIC_PAPER
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: A_PILE_OF_PLASTIC_PAPER
+      amount: 1
+SCIENTIFIC_AND_TECHNOLOGICAL_PLASTIC_STEEL_INGOT:
+  category: synthetics
+  item-type: CUSTOM
+  item-name: "&f科技塑钢锭"
+  item-lore:
+  - "&7硬度接近强化合金锭，但密度更大"
+  - "&c三种产物合成"
+  item-id: IRON_INGOT
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ANNIHILATION_TECHNOLOGY_INGOT
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: PLASTIC_BLOCK
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: STEEL_INGOT
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ANNIHILATION_TECHNOLOGY_INGOT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: PLASTIC_BLOCK
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: STEEL_INGOT
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+SCIENTIFIC_AND_TECHNOLOGICAL_PLASTIC_STEEL_PLATE:
+  category: synthetics
+  item-type: CUSTOM
+  item-name: "&b科技塑钢板"
+  item-lore:
+  - "&7像钢筋板一样的板子"
+  - "&c用压缩机器挤压制成"
+  item-id: PAPER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: COMPRESSOR
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: SCIENTIFIC_AND_TECHNOLOGICAL_PLASTIC_STEEL_INGOT
+      amount: 8
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+ROBOT_GEL:
+  category: synthetics
+  item-type: CUSTOM
+  item-name: "&3机器人凝胶"
+  item-lore:
+  - "&7形似机器人，但是黏黏糊糊"
+  - "&f&l反复把玩都不坏的小玩具"
+  item-id: SLIME_BLOCK
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: MAGIC_WORKBENCH
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: SCIENTIFIC_AND_TECHNOLOGICAL_PLASTIC_STEEL_PLATE
+      amount: 1
+    2:
+      type: VANILLA
+      id: SLIME_BALL
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: SCIENTIFIC_AND_TECHNOLOGICAL_PLASTIC_STEEL_PLATE
+      amount: 1
+    4:
+      type: VANILLA
+      id: SLIME_BALL
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: PROGRAMMABLE_ANDROID_3
+      amount: 1
+    6:
+      type: VANILLA
+      id: SLIME_BALL
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: SCIENTIFIC_AND_TECHNOLOGICAL_PLASTIC_STEEL_PLATE
+      amount: 1
+    8:
+      type: VANILLA
+      id: SLIME_BALL
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: SCIENTIFIC_AND_TECHNOLOGICAL_PLASTIC_STEEL_PLATE
+      amount: 1
+
+TECH_VERSION_I:
+  category: version
+  item-type: CUSTOM
+  item-name: "&3版本信息"
+  item-lore:
+  - "&f版本号"
+  - "&b&lBeta0.1.6"
+  - ""
+  - "&e版本更新：文件创建，新增基础材料&少量一体机"
+  item-id: PAPER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: PAPER
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+TECH_VERSION_II:
+  category: version
+  item-type: CUSTOM
+  item-name: "&3版本信息"
+  item-lore:
+  - "&f版本号"
+  - "&b&lBeta0.2.4"
+  - ""
+  - "&e版本更新：新增基础电容，新增自然资源，材料&一体机解锁等级240"
+  item-id: PAPER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: PAPER
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+TECH_VERSION_III:
+  category: version
+  item-type: CUSTOM
+  item-name: "&3版本信息"
+  item-lore:
+  - "&f版本号"
+  - "&b&lBeta0.3.7"
+  - ""
+  - "&e版本更新：新增物质发电机，修改一体机合成配方，使其合理化。"
+  item-id: PAPER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: PAPER
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+TECH_VERSION_IV:
+  category: version
+  item-type: CUSTOM
+  item-name: "&3版本信息"
+  item-lore:
+  - "&f版本号"
+  - "&b&lBeta0.4.6"
+  - ""
+  - "&e版本更新：新增太阳能发电机，新增附属一体机；新增生物掉落。"
+  item-id: PAPER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: PAPER
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+TECH_VERSION_V:
+  category: version
+  item-type: CUSTOM
+  item-name: "&3版本信息"
+  item-lore:
+  - "&f版本号"
+  - "&b&lBeta0.5.4"
+  - ""
+  - "&e版本更新：再次修改一体机合成配方与其生产时间，并新增进阶合成材料，删除解锁等级"
+  item-id: PAPER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: PAPER
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+TECH_VERSION_VI:
+  category: version
+  item-type: CUSTOM
+  item-name: "&3版本信息"
+  item-lore:
+  - "&f版本号"
+  - "&b&lBeta0.5.8"
+  - ""
+  - "&e版本更新：进行附属内容微调，机器描述文案修改，删除物质发电机"
+  item-id: PAPER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: PAPER
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+TECH_VERSION_VII:
+  category: version
+  item-type: CUSTOM
+  item-name: "&3版本信息"
+  item-lore:
+  - "&f版本号"
+  - "&b&lBeta0.6.4"
+  - ""
+  - "&e版本更新：新增附属材料转换机器，并进一步修改所有一体机的生产时间与合成配方"
+  item-id: PAPER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: PAPER
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+TECH_VERSION_VIII:
+  category: version
+  item-type: CUSTOM
+  item-name: "&3版本信息"
+  item-lore:
+  - "&f版本号"
+  - "&b&lBeta0.7.3"
+  - ""
+  - "&e版本更新：修改生物掉落材料，删除部分超模太阳能发电机"
+  item-id: PAPER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: PAPER
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+TECH_VERSION_IX:
+  category: version
+  item-type: CUSTOM
+  item-name: "&3版本信息"
+  item-lore:
+  - "&f版本号"
+  - "&b&lBeta0.8.6"
+  - ""
+  - "&e版本更新：新增附属前置，删除原油一体机与其后续扩展体"
+  item-id: PAPER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: PAPER
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+TECH_VERSION_X:
+  category: version
+  item-type: CUSTOM
+  item-name: "&3版本信息"
+  item-lore:
+  - "&f版本号"
+  - "&b&lBeta0.9.8"
+  - ""
+  - "&e版本更新：再次修改部分一体机的生产时间与产量微调，文案描述再次调整"
+  item-id: PAPER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: PAPER
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+TECH_VERSION_XI:
+  category: version
+  item-type: CUSTOM
+  item-name: "&3版本信息"
+  item-lore:
+  - "&f版本号"
+  - "&b&lBeta1.1.9"
+  - ""
+  - "&e版本更新：新增至尊附属自然资源核心转换器，并使其生产时间合理化"
+  item-id: PAPER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: PAPER
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+TECH_VERSION_XII:
+  category: version
+  item-type: CUSTOM
+  item-name: "&3版本信息"
+  item-lore:
+  - "&f版本号"
+  - "&b&lBeta1.3.4"
+  - ""
+  - "&e版本更新：材料合成配方简化，一体机合成配方简化，微调生物材料概率，修改自然资源描述，修改附属整体显示材质"
+  item-id: PAPER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: PAPER
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+TECH_VERSION_XIII:
+  category: version
+  item-type: CUSTOM
+  item-name: "&3版本信息"
+  item-lore:
+  - "&f版本号"
+  - "&b&lBeta1.5.2"
+  - ""
+  - "&e版本更新：新增少量机器以完善粘液的自动化生产线，因作者身体原因被迫停更一个月"
+  item-id: PAPER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: PAPER
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+TECH_VERSION_XIV:
+  category: version
+  item-type: CUSTOM
+  item-name: "&3版本信息"
+  item-lore:
+  - "&f版本号"
+  - "&b&lBeta1.6.4"
+  - ""
+  - "&e版本更新：重新开始更新，并翻新附属所有内容，新增矿粉生成器"
+  item-id: PAPER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: PAPER
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+TECH_VERSION_XV:
+  category: version
+  item-type: CUSTOM
+  item-name: "&3版本信息"
+  item-lore:
+  - "&f版本号"
+  - "&b&l Version1.66"
+  - ""
+  - "&e版本更新：更新为正式版Version1.66，并删除大量附属机器及其转换材料"
+  item-id: PAPER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: PAPER
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+TECH_VERSION_XVI:
+  category: version
+  item-type: CUSTOM
+  item-name: "&3版本信息"
+  item-lore:
+  - "&f版本号"
+  - "&b&l Version1.69"
+  - ""
+  - "&e版本更新：更新为Version1.69最终改动版，时隔半年后的最后一次更新，修改部分原版材质为头颅材质"
+  - "&c（本附属已被作者放弃更新，并将其进行整体重构）"
+  item-id: PAPER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: PAPER
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
